@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	background-color: #2C2C29;
+	height: 0px;
+	
+}
+
+h1 {
+	color: floralwhite;
+	transform: translateY(50%);
+	font-family: Impact, Charcoal, sans-serif;
+
+}
+
+.randomRecipe {
+	color: floralwhite;
+	transform: translateY(50%);
+	font-size: 25px;
+    font-family: Impact, Charcoal, sans-serif;
+
+}
+
+#myImg {
+	transform: translateY(10%);
+
+}

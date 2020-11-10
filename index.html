@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="recipe.js"></script>
+</head>
+<body onload="fetchRecipes()">
+	<div class="container">
+		<div class="row">
+		    <h1 class="col-sm-11 text-center">Find a Recipe:</h1>
+		</div>
+		<div class="col-sm-11 text-left">
+        	<div class="randomRecipe"></div>
+        	<img id="myImg" alt="Meal Image" width="500" height="335">
+ 		</div>
+		
+	</div>
+</body>
+</html>
