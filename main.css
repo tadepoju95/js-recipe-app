@@ -19,13 +19,37 @@ h1 {
 
 .randomRecipe {
 	color: floralwhite;
-	transform: translateY(50%);
-	font-size: 25px;
+	transform: translateY(100%);
+	font-size: 21px;
     font-family: Impact, Charcoal, sans-serif;
 
 }
 
 #myImg {
 	transform: translateY(10%);
+}
+
+#instructions {
+	color: floralwhite;
+	position: relative;
+	top: 10px;
 
 }
+
+#listIngredients {
+	color: floralwhite;
+}
+
+.setVideo {
+	color: floralwhite;
+
+}
+
+h5 {
+	color: floralwhite;
+}
+
+.btn {
+	transform: translateY(-200px);
+}
+
