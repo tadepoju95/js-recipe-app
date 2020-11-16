@@ -8,7 +8,6 @@ let fetchRecipes = () => {
         .catch(error => console.error(error));
 }
 
-
 let displayRecipe = (recipes) => {
 	let getMeals = recipes.meals[0];
 	let getName = getMeals.strMeal;
