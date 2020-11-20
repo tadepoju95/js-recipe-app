@@ -30,7 +30,7 @@ let displayRecipe = (recipes) => {
 
 let video = (grabVideo) => {
 	if(grabVideo !== '') {
-		location.href = grabVideo;
+		window.open(grabVideo);
 
 	} else {
 		document.getElementById('setInnerhtml').innerHTML = 'Video Unavailable';
